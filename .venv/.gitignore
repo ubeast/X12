@@ -1,1 +1,31 @@
+    # Mac System files
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Python Virtual Environments (Crucial!)
+.venv/
+venv/
+env/
+bin/
+
+# Python Cache (Speeds up local execution, not needed on GitHub)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sensitive Information (Never upload passwords or API keys)
+.env
+auth.json
+secrets.txt
+
+# Large Data Files (If you have files >50MB, ignore them)
+*.csv
+*.xlsx
+*.edi
+*.log
+
+# Temporary/Local Project Files
+.ipynb_checkpoints/
+.vscode/
+.idea/
