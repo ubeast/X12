@@ -1,0 +1,16 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+CD3-01,187,Weight Qualifier,Identifier (ID),Conditional,1,2,-,Code defining the type of weight,"P0102: If either CD3-01 or CD3-02 is present, then the other is required",51,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-02,81,Weight,Decimal number (R),Conditional,1,10,-,Numeric value of weight,,,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-03,619,Zone,String (AN),Optional,2,3,-,To identify zone,,,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-04,34,Service Standard,Numeric (N1),Optional,1,4,-,To report the time period of carrier's standard service for the shipment,,,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-05,284,Service Level Code,Identifier (ID),Conditional,2,2,-,Code indicating the level of transportation service or the billing service offered by the transportation carrier,,66,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-06,108,Pick-up or Delivery Code,Identifier (ID),Optional,1,2,-,Specifies the location or type of pickup or delivery,,32,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-07,122,Rate/Value Qualifier,Identifier (ID),Conditional,2,2,-,Code qualifying how to extend charges or interpret value,"P0708: If either CD3-07 or CD3-08 is present, then the other is required",163,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-08,58,Charge,Numeric (N2),Conditional,1,12,-,For a line item: freight or special charge; for the total invoice: the total charges -- expressed in the standard monetary denomination for the currency specified,CD308 is the charge for the single package.,,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-09,122,Rate/Value Qualifier,Identifier (ID),Conditional,2,2,-,Code qualifying how to extend charges or interpret value,"P0910: If either CD3-09 or CD3-10 is present, then the other is required",163,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-10,58,Charge,Numeric (N2),Conditional,1,12,-,For a line item: freight or special charge; for the total invoice: the total charges -- expressed in the standard monetary denomination for the currency specified,CD310 is the total charge for all of the packages.,,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-11,284,Service Level Code,Identifier (ID),Conditional,2,2,-,Code indicating the level of transportation service or the billing service offered by the transportation carrier,"C1105: If CD3-11 is present, then CD3-05 is required",66,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-12,284,Service Level Code,Identifier (ID),Optional,2,2,-,Code indicating the level of transportation service or the billing service offered by the transportation carrier,"C1211: If CD3-12 is present, then CD3-11 is required",66,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-13,591,Payment Method Code,Identifier (ID),Optional,3,3,-,Code identifying the method for the movement of payment instructions,,54,https://www.stedi.com/edi/x12-004010/segment/CD3
+CD3-14,26,Country Code,Identifier (ID),Optional,2,3,-,Code identifying the country,"C1405: If CD3-14 is present, then CD3-05 is required
+CD314 is the country where the service is to be performed.",498,https://www.stedi.com/edi/x12-004010/segment/CD3

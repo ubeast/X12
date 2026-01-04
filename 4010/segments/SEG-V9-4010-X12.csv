@@ -1,0 +1,24 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+V9-01,304,Event Code,Identifier (ID),Mandatory,3,3,-,Code identifying the event about which a report is made,,104,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-02,106,Event,String (AN),Optional,1,25,-,Free-form description of event,,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-03,373,Date,Date (DT),Optional,8,8,-,Date expressed as CCYYMMDD,V903 is the event date.,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-04,337,Time,Time (TM),Conditional,4,8,-,"Time expressed in 24-hour clock time as follows: HHMM, or HHMMSS, or HHMMSSD, or HHMMSSDD, where H = hours (00-23), M = minutes (00-59), S = integer seconds (00-59) and DD = decimal seconds; decimal seconds are expressed as follows: D = tenths (0-9) and DD = hundredths (00-99)",V904 is the event time.,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-05,19,City Name,String (AN),Optional,2,30,-,Free-form text for city name,,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-06,156,State or Province Code,Identifier (ID),Optional,2,2,-,Code (Standard State/Province) as defined by appropriate government agency,,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-07,26,Country Code,Identifier (ID),Optional,2,3,-,Code identifying the country,,498,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-08,641,Status Reason Code,Identifier (ID),Optional,3,3,-,Code indicating the status reason,,387,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-09,154,Standard Point Location Code,Identifier (ID),Conditional,6,9,-,Code (Standard Point Location) defined by NMFTA point development group as the official code assigned to a city or point (for ratemaking purposes) within a city,V909 is the Standard Point Location Code (SPLC) of the event shown in the V901.,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-10,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,"P1011: If either V9-10 or V9-11 is present, then the other is required
+V910 is the length of the time delay expressed in hours.",,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-11,1274,Train Delay Reason Code,String (AN),Conditional,2,2,-,Code specifying reason for train delay,,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-12,61,Free-Form Message,String (AN),Optional,1,30,-,Free-form information,,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-13,623,Time Code,Identifier (ID),Optional,2,2,-,"Code identifying the time. In accordance with International Standards Organization standard 8601, time can be specified by a + or - and an indication in hours in relation to Universal Time Coordinate (UTC) time; since + is a restricted character, + and - are substituted by P and M in the codes that follow","C1304: If V9-13 is present, then V9-04 is required
+V913 reflects the time zone which the event time reflects.",51,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-14,380,Quantity,Decimal number (R),Optional,1,15,-,Numeric value of quantity,V914 is the quantity of the fuel in gallons.,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-15,154,Standard Point Location Code,Identifier (ID),Optional,6,9,-,Code (Standard Point Location) defined by NMFTA point development group as the official code assigned to a city or point (for ratemaking purposes) within a city,"C1509: If V9-15 is present, then V9-09 is required
+V915 is the Standard Point Location Code (SPLC) of the secondary point of the delay indicated in the V911.",,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-16,86,Total Equipment,Numeric (N0),Optional,1,3,-,Total pieces of equipment,V916 is the total number of rail cars associated with the event code in V901.,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-17,86,Total Equipment,Numeric (N0),Optional,1,3,-,Total pieces of equipment,V917 is the total number of loaded cars associated with the event code in V901.,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-18,86,Total Equipment,Numeric (N0),Optional,1,3,-,Total pieces of equipment,V918 is the total number of empty cars associated with the event code in V901.,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-19,81,Weight,Decimal number (R),Optional,1,10,-,Numeric value of weight,V919 is the total Gross Tons of the cars identified in V916. Includes the gross weight of the loads and the tare weight of the empties.,,https://www.stedi.com/edi/x12-004010/segment/V9
+V9-20,82,Length,Decimal number (R),Optional,1,8,-,Largest horizontal dimension of an object measured when the object is in the upright position,"V920 is the total outside foot length of the cars identified in V916, rounded off to the nearest foot.",,https://www.stedi.com/edi/x12-004010/segment/V9

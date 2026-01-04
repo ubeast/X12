@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+FA2-01,1196,Breakdown Structure Detail Code,Identifier (ID),Mandatory,2,2,-,Codes identifying details relating to a reporting breakdown structure tree,,166,https://www.stedi.com/edi/x12-004010/segment/FA2
+FA2-02,1195,Financial Information Code,String (AN),Mandatory,1,80,-,Code representing financial accounting information,,,https://www.stedi.com/edi/x12-004010/segment/FA2

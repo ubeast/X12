@@ -1,0 +1,11 @@
+SN,Owner,Release,EDI,EdiName,FG,Level,Posn,LoopID,SAbbrv,SegName,Req,Arr,Max,Rpt,Description,Remarks,URL
+1,X12,4010,315,Status Details (Ocean),QO,Heading,10.0,,ST,Transaction Set Header,Mandatory,->,1.0,,To indicate the start of a transaction set and to assign a control number,,https://www.stedi.com/edi/x12-004010/315
+2,X12,4010,315,Status Details (Ocean),QO,Heading,20.0,,B4,Beginning Segment for Inquiry or Reply,Mandatory,->,1.0,,"To transmit identifying numbers, dates, and other basic data relating to the transaction set",,https://www.stedi.com/edi/x12-004010/315
+3,X12,4010,315,Status Details (Ocean),QO,Heading,30.0,,N9,Reference Identification,Optional,->,30.0,,To transmit identifying information as specified by the Reference Identification Qualifier,,https://www.stedi.com/edi/x12-004010/315
+4,X12,4010,315,Status Details (Ocean),QO,Heading,40.0,,Q2,Status Details (Ocean),Optional,->,1.0,,"To transmit identifying information relative to identification of vessel, transportation dates, lading quantity, weight, and cube",,https://www.stedi.com/edi/x12-004010/315
+5,X12,4010,315,Status Details (Ocean),QO,Heading,50.0,,SG,Shipment Status,Optional,->,15.0,,To convey the status of a shipment,,https://www.stedi.com/edi/x12-004010/315
+6,X12,4010,315,Status Details (Ocean),QO,Heading,,R4 (Port/Location),,Port/Location,Mandatory,,,20.0,,,https://www.stedi.com/edi/x12-004010/315
+7,X12,4010,315,Status Details (Ocean),QO,Heading,60.0,R4 (Port/Location),R4,Port or Terminal,Mandatory,->,1.0,,Contractual or operational port or point relevant to the movement of the cargo,,https://www.stedi.com/edi/x12-004010/315
+8,X12,4010,315,Status Details (Ocean),QO,Heading,70.0,R4 (Port/Location),DTM,Date/Time Reference,Optional,->,15.0,,To specify pertinent dates and times,,https://www.stedi.com/edi/x12-004010/315
+9,X12,4010,315,Status Details (Ocean),QO,Heading,80.0,,V9,Event Detail,Optional,->,10.0,,To specify information about a specific event,,https://www.stedi.com/edi/x12-004010/315
+10,X12,4010,315,Status Details (Ocean),QO,Heading,90.0,,SE,Transaction Set Trailer,Mandatory,->,1.0,,To indicate the end of the transaction set and provide the count of the transmitted segments (including the beginning (ST) and ending (SE) segments),,https://www.stedi.com/edi/x12-004010/315

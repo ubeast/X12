@@ -1,0 +1,25 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+SDQ-01,355,Unit or Basis for Measurement Code,Identifier (ID),Mandatory,2,2,-,"Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken",,794,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-02,66,Identification Code Qualifier,Identifier (ID),Optional,1,2,-,Code designating the system/method of code structure used for Identification Code (67),SDQ02 is used only if different than previously defined in the transaction set.,215,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-03,67,Identification Code,String (AN),Mandatory,2,80,-,Code identifying a party or other code,SDQ03 is the store number.,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-04,380,Quantity,Decimal number (R),Mandatory,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-05,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,"P0506: If either SDQ-05 or SDQ-06 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-06,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-07,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,"P0708: If either SDQ-07 or SDQ-08 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-08,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-09,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,"P0910: If either SDQ-09 or SDQ-10 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-10,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-11,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,"P1112: If either SDQ-11 or SDQ-12 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-12,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-13,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,"P1314: If either SDQ-13 or SDQ-14 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-14,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-15,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,"P1516: If either SDQ-15 or SDQ-16 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-16,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-17,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,"P1718: If either SDQ-17 or SDQ-18 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-18,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-19,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,"P1920: If either SDQ-19 or SDQ-20 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-20,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-21,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,"P2122: If either SDQ-21 or SDQ-22 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-22,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/SDQ
+SDQ-23,310,Location Identifier,String (AN),Optional,1,30,-,Code which identifies a specific location,"SDQ23 identifies the area within the location identified in SDQ03, SDQ05, SDQ07, SDQ09, SDQ11, SDQ13, SDQ15, SDQ17, SDQ19, and SDQ21.
+SDQ23 may be used to identify areas within a store, e.g., front room, back room, selling outpost, end aisle display, etc. The value is agreed to by trading partners or industry conventions.",,https://www.stedi.com/edi/x12-004010/segment/SDQ

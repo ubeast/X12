@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+LQ-01,1270,Code List Qualifier Code,Identifier (ID),Optional,1,3,-,Code identifying a specific industry code list,"C0102: If LQ-01 is present, then LQ-02 is required",558,https://www.stedi.com/edi/x12-004010/segment/LQ
+LQ-02,1271,Industry Code,String (AN),Conditional,1,30,-,Code indicating a code from a specific industry code list,,,https://www.stedi.com/edi/x12-004010/segment/LQ

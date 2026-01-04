@@ -1,0 +1,6 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+MS3-01,140,Standard Carrier Alpha Code,Identifier (ID),Mandatory,2,4,-,Standard Carrier Alpha Code,MS301 is the Standard Carrier Alpha Code (SCAC) of the interline carrier.,,https://www.stedi.com/edi/x12-004010/segment/MS3
+MS3-02,133,Routing Sequence Code,Identifier (ID),Mandatory,1,2,-,Code describing the relationship of a carrier to a specific shipment movement,,23,https://www.stedi.com/edi/x12-004010/segment/MS3
+MS3-03,19,City Name,String (AN),Conditional,2,30,-,Free-form text for city name,MS303 is the city where the interline was performed.,,https://www.stedi.com/edi/x12-004010/segment/MS3
+MS3-04,91,Transportation Method/Type Code,Identifier (ID),Optional,1,2,-,Code specifying the method or type of transportation for the shipment,,71,https://www.stedi.com/edi/x12-004010/segment/MS3
+MS3-05,156,State or Province Code,Identifier (ID),Optional,2,2,-,Code (Standard State/Province) as defined by appropriate government agency,"C0503: If MS3-05 is present, then MS3-03 is required",,https://www.stedi.com/edi/x12-004010/segment/MS3

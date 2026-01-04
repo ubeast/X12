@@ -1,0 +1,5 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+MS2-01,140,Standard Carrier Alpha Code,Identifier (ID),Conditional,2,4,-,Standard Carrier Alpha Code,"P0102: If either MS2-01 or MS2-02 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/MS2
+MS2-02,207,Equipment Number,String (AN),Conditional,1,10,-,Sequencing or serial part of an equipment unit's identifying number (pure numeric form for equipment number is preferred),,,https://www.stedi.com/edi/x12-004010/segment/MS2
+MS2-03,40,Equipment Description Code,Identifier (ID),Optional,2,2,-,Code identifying type of equipment used for shipment,MS203 identifies the type for the equipment specified in MS202.,134,https://www.stedi.com/edi/x12-004010/segment/MS2
+MS2-04,761,Equipment Number Check Digit,Numeric (N0),Optional,1,1,-,Number which designates the check digit applied to a piece of equipment,"C0402: If MS2-04 is present, then MS2-02 is required",,https://www.stedi.com/edi/x12-004010/segment/MS2

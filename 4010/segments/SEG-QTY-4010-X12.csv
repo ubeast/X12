@@ -1,0 +1,21 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+QTY-01,673,Quantity Qualifier,Identifier (ID),Mandatory,2,2,-,Code specifying the type of quantity,,832,https://www.stedi.com/edi/x12-004010/segment/QTY
+QTY-02,380,Quantity,Decimal number (R),Conditional,1,15,-,Numeric value of quantity,"R0204: At least one of QTY-02 or QTY-04 is required
+E0204: Only one of QTY-02 or QTY-04 may be present",,https://www.stedi.com/edi/x12-004010/segment/QTY
+QTY-03,C001,Composite Unit of Measure,Composite (composite),Optional,,,,,,,https://www.stedi.com/edi/x12-004010/segment/QTY
+01,355,Unit or Basis for Measurement Code,Identifier (ID),Mandatory,2,2,-,"Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken",,794,https://www.stedi.com/edi/x12-004010/segment/QTY
+02,1018,Exponent,Decimal number (R),Optional,1,15,-,Power to which a unit is raised,"If C001-02 is not used, its value is to be interpreted as 1.",,https://www.stedi.com/edi/x12-004010/segment/QTY
+03,649,Multiplier,Decimal number (R),Optional,1,10,-,Value to be used as a multiplier to obtain a new value,"If C001-03 is not used, its value is to be interpreted as 1.",,https://www.stedi.com/edi/x12-004010/segment/QTY
+04,355,Unit or Basis for Measurement Code,Identifier (ID),Optional,2,2,-,"Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken",,794,https://www.stedi.com/edi/x12-004010/segment/QTY
+05,1018,Exponent,Decimal number (R),Optional,1,15,-,Power to which a unit is raised,"If C001-05 is not used, its value is to be interpreted as 1.",,https://www.stedi.com/edi/x12-004010/segment/QTY
+06,649,Multiplier,Decimal number (R),Optional,1,10,-,Value to be used as a multiplier to obtain a new value,"If C001-06 is not used, its value is to be interpreted as 1.",,https://www.stedi.com/edi/x12-004010/segment/QTY
+07,355,Unit or Basis for Measurement Code,Identifier (ID),Optional,2,2,-,"Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken",,794,https://www.stedi.com/edi/x12-004010/segment/QTY
+08,1018,Exponent,Decimal number (R),Optional,1,15,-,Power to which a unit is raised,"If C001-08 is not used, its value is to be interpreted as 1.",,https://www.stedi.com/edi/x12-004010/segment/QTY
+09,649,Multiplier,Decimal number (R),Optional,1,10,-,Value to be used as a multiplier to obtain a new value,"If C001-09 is not used, its value is to be interpreted as 1.",,https://www.stedi.com/edi/x12-004010/segment/QTY
+10,355,Unit or Basis for Measurement Code,Identifier (ID),Optional,2,2,-,"Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken",,794,https://www.stedi.com/edi/x12-004010/segment/QTY
+11,1018,Exponent,Decimal number (R),Optional,1,15,-,Power to which a unit is raised,"If C001-11 is not used, its value is to be interpreted as 1.",,https://www.stedi.com/edi/x12-004010/segment/QTY
+12,649,Multiplier,Decimal number (R),Optional,1,10,-,Value to be used as a multiplier to obtain a new value,"If C001-12 is not used, its value is to be interpreted as 1.",,https://www.stedi.com/edi/x12-004010/segment/QTY
+13,355,Unit or Basis for Measurement Code,Identifier (ID),Optional,2,2,-,"Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken",,794,https://www.stedi.com/edi/x12-004010/segment/QTY
+14,1018,Exponent,Decimal number (R),Optional,1,15,-,Power to which a unit is raised,"If C001-14 is not used, its value is to be interpreted as 1.",,https://www.stedi.com/edi/x12-004010/segment/QTY
+15,649,Multiplier,Decimal number (R),Optional,1,10,-,Value to be used as a multiplier to obtain a new value,"If C001-15 is not used, its value is to be interpreted as 1.",,https://www.stedi.com/edi/x12-004010/segment/QTY
+QTY-04,61,Free-Form Message,String (AN),Conditional,1,30,-,Free-form information,QTY04 is used when the quantity is non-numeric.,,https://www.stedi.com/edi/x12-004010/segment/QTY

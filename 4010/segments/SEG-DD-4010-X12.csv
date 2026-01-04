@@ -1,0 +1,11 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+DD-01,1271,Industry Code,String (AN),Conditional,1,30,-,Code indicating a code from a specific industry code list,,,https://www.stedi.com/edi/x12-004010/segment/DD
+DD-02,1270,Code List Qualifier Code,Identifier (ID),Optional,1,3,-,Code identifying a specific industry code list,"C0201: If DD-02 is present, then DD-01 is required",558,https://www.stedi.com/edi/x12-004010/segment/DD
+DD-03,128,Reference Identification Qualifier,Identifier (ID),Conditional,2,3,-,Code qualifying the Reference Identification,"P030405: If either DD-03, DD-04 or DD-05 are present, then the others are required",1503,https://www.stedi.com/edi/x12-004010/segment/DD
+DD-04,127,Reference Identification,String (AN),Conditional,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,,,https://www.stedi.com/edi/x12-004010/segment/DD
+DD-05,1271,Industry Code,String (AN),Conditional,1,30,-,Code indicating a code from a specific industry code list,,,https://www.stedi.com/edi/x12-004010/segment/DD
+DD-06,1270,Code List Qualifier Code,Identifier (ID),Optional,1,3,-,Code identifying a specific industry code list,"C0605: If DD-06 is present, then DD-05 is required",558,https://www.stedi.com/edi/x12-004010/segment/DD
+DD-07,380,Quantity,Decimal number (R),Optional,1,15,-,Numeric value of quantity,,,https://www.stedi.com/edi/x12-004010/segment/DD
+DD-08,1073,Yes/No Condition or Response Code,Identifier (ID),Optional,1,1,-,Code indicating a Yes or No condition or response,"DD08 transmits the stock level indicator. A ""Y"" indicates that the material is normally carried in stock; an ""N"" indicates that the material is not normally stocked.",4,https://www.stedi.com/edi/x12-004010/segment/DD
+DD-09,1271,Industry Code,String (AN),Conditional,1,30,-,Code indicating a code from a specific industry code list,,,https://www.stedi.com/edi/x12-004010/segment/DD
+DD-10,1270,Code List Qualifier Code,Identifier (ID),Optional,1,3,-,Code identifying a specific industry code list,"C1009: If DD-10 is present, then DD-09 is required",558,https://www.stedi.com/edi/x12-004010/segment/DD

@@ -1,0 +1,9 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+R4-01,115,Port or Terminal Function Code,Identifier (ID),Mandatory,1,1,-,Code defining function performed at the port or terminal with respect to a shipment,,30,https://www.stedi.com/edi/x12-004010/segment/R4
+R4-02,309,Location Qualifier,Identifier (ID),Conditional,1,2,-,Code identifying type of location,"P0203: If either R4-02 or R4-03 is present, then the other is required",172,https://www.stedi.com/edi/x12-004010/segment/R4
+R4-03,310,Location Identifier,String (AN),Conditional,1,30,-,Code which identifies a specific location,,,https://www.stedi.com/edi/x12-004010/segment/R4
+R4-04,114,Port Name,String (AN),Optional,2,24,-,Free-form name for the place at which an offshore carrier originates or terminates (by transshipment or otherwise) its actual ocean carriage of property,,,https://www.stedi.com/edi/x12-004010/segment/R4
+R4-05,26,Country Code,Identifier (ID),Optional,2,3,-,Code identifying the country,,498,https://www.stedi.com/edi/x12-004010/segment/R4
+R4-06,174,Terminal Name,String (AN),Optional,2,30,-,Free-form field for terminal name,,,https://www.stedi.com/edi/x12-004010/segment/R4
+R4-07,113,Pier Number,String (AN),Optional,1,4,-,Identifying number for the pier,,,https://www.stedi.com/edi/x12-004010/segment/R4
+R4-08,156,State or Province Code,Identifier (ID),Optional,2,2,-,Code (Standard State/Province) as defined by appropriate government agency,,,https://www.stedi.com/edi/x12-004010/segment/R4

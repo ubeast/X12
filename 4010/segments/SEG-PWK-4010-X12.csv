@@ -1,0 +1,16 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+PWK-01,755,Report Type Code,Identifier (ID),Mandatory,2,2,-,"Code indicating the title or contents of a document, report or supporting item",,522,https://www.stedi.com/edi/x12-004010/segment/PWK
+PWK-02,756,Report Transmission Code,Identifier (ID),Optional,1,2,-,"Code defining timing, transmission method or format by which reports are to be sent",,51,https://www.stedi.com/edi/x12-004010/segment/PWK
+PWK-03,757,Report Copies Needed,Numeric (N0),Optional,1,2,-,The number of copies of a report that should be sent to the addressee,,,https://www.stedi.com/edi/x12-004010/segment/PWK
+PWK-04,98,Entity Identifier Code,Identifier (ID),Optional,2,3,-,"Code identifying an organizational entity, a physical location, property or an individual",,1312,https://www.stedi.com/edi/x12-004010/segment/PWK
+PWK-05,66,Identification Code Qualifier,Identifier (ID),Conditional,1,2,-,Code designating the system/method of code structure used for Identification Code (67),"P0506: If either PWK-05 or PWK-06 is present, then the other is required
+PWK05 and PWK06 may be used to identify the addressee by a code number.",215,https://www.stedi.com/edi/x12-004010/segment/PWK
+PWK-06,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,,,https://www.stedi.com/edi/x12-004010/segment/PWK
+PWK-07,352,Description,String (AN),Optional,1,80,-,A free-form description to clarify the related data elements and their content,PWK07 may be used to indicate special information to be shown on the specified report.,,https://www.stedi.com/edi/x12-004010/segment/PWK
+PWK-08,C002,Actions Indicated,Composite (composite),Optional,,,,,,,https://www.stedi.com/edi/x12-004010/segment/PWK
+01,704,Paperwork/Report Action Code,Identifier (ID),Mandatory,1,2,-,Code specifying how the paperwork or report that is identified in the PWK segment relates to the transaction set or to identify the action that is required,,14,https://www.stedi.com/edi/x12-004010/segment/PWK
+02,704,Paperwork/Report Action Code,Identifier (ID),Optional,1,2,-,Code specifying how the paperwork or report that is identified in the PWK segment relates to the transaction set or to identify the action that is required,,14,https://www.stedi.com/edi/x12-004010/segment/PWK
+03,704,Paperwork/Report Action Code,Identifier (ID),Optional,1,2,-,Code specifying how the paperwork or report that is identified in the PWK segment relates to the transaction set or to identify the action that is required,,14,https://www.stedi.com/edi/x12-004010/segment/PWK
+04,704,Paperwork/Report Action Code,Identifier (ID),Optional,1,2,-,Code specifying how the paperwork or report that is identified in the PWK segment relates to the transaction set or to identify the action that is required,,14,https://www.stedi.com/edi/x12-004010/segment/PWK
+05,704,Paperwork/Report Action Code,Identifier (ID),Optional,1,2,-,Code specifying how the paperwork or report that is identified in the PWK segment relates to the transaction set or to identify the action that is required,,14,https://www.stedi.com/edi/x12-004010/segment/PWK
+PWK-09,1525,Request Category Code,Identifier (ID),Optional,1,2,-,Code indicating a type of request,,7,https://www.stedi.com/edi/x12-004010/segment/PWK

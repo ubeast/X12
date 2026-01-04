@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+N3-01,166,Address Information,String (AN),Mandatory,1,55,-,Address information,,,https://www.stedi.com/edi/x12-004010/segment/N3
+N3-02,166,Address Information,String (AN),Optional,1,55,-,Address information,,,https://www.stedi.com/edi/x12-004010/segment/N3

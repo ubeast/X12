@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+BIN-01,784,Length of Binary Data,Numeric (N0),Mandatory,1,15,-,The length in integral octets of the binary data,,,https://www.stedi.com/edi/x12-004010/segment/BIN
+BIN-02,785,Binary Data,Binary (B),Mandatory,1,∞,-,A string of octets which can assume any binary pattern from hexadecimal 00 to FF,,,https://www.stedi.com/edi/x12-004010/segment/BIN

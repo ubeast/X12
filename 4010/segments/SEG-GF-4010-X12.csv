@@ -1,0 +1,10 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+GF-01,128,Reference Identification Qualifier,Identifier (ID),Conditional,2,3,-,Code qualifying the Reference Identification,"P0102: If either GF-01 or GF-02 is present, then the other is required",1503,https://www.stedi.com/edi/x12-004010/segment/GF
+GF-02,127,Reference Identification,String (AN),Conditional,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,,,https://www.stedi.com/edi/x12-004010/segment/GF
+GF-03,367,Contract Number,String (AN),Optional,1,30,-,Contract number,,,https://www.stedi.com/edi/x12-004010/segment/GF
+GF-04,782,Monetary Amount,Decimal number (R),Optional,1,18,-,Monetary amount,GF04 is the value of government-furnished property.,,https://www.stedi.com/edi/x12-004010/segment/GF
+GF-05,128,Reference Identification Qualifier,Identifier (ID),Conditional,2,3,-,Code qualifying the Reference Identification,"P0506: If either GF-05 or GF-06 is present, then the other is required",1503,https://www.stedi.com/edi/x12-004010/segment/GF
+GF-06,127,Reference Identification,String (AN),Conditional,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,,,https://www.stedi.com/edi/x12-004010/segment/GF
+GF-07,328,Release Number,String (AN),Optional,1,30,-,Number identifying a release against a Purchase Order previously placed by the parties involved in the transaction,,,https://www.stedi.com/edi/x12-004010/segment/GF
+GF-08,128,Reference Identification Qualifier,Identifier (ID),Conditional,2,3,-,Code qualifying the Reference Identification,"P0809: If either GF-08 or GF-09 is present, then the other is required",1503,https://www.stedi.com/edi/x12-004010/segment/GF
+GF-09,127,Reference Identification,String (AN),Conditional,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,,,https://www.stedi.com/edi/x12-004010/segment/GF

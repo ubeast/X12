@@ -1,0 +1,17 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+Q2-01,597,Vessel Code,Identifier (ID),Optional,1,8,-,Code identifying vessel,,,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-02,26,Country Code,Identifier (ID),Optional,2,3,-,Code identifying the country,Q202 is the code identifying the country in which the ship (vessel) is registered.,498,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-03,373,Date,Date (DT),Optional,8,8,-,Date expressed as CCYYMMDD,Q203 is the required pier date.,,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-04,373,Date,Date (DT),Optional,8,8,-,Date expressed as CCYYMMDD,Q204 is the date of departure of the vessel.,,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-05,373,Date,Date (DT),Optional,8,8,-,Date expressed as CCYYMMDD,Q205 is the date the shipment was unloaded from the vessel.,,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-06,80,Lading Quantity,Numeric (N0),Optional,1,7,-,Number of units (pieces) of the lading commodity,,,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-07,81,Weight,Decimal number (R),Conditional,1,10,-,Numeric value of weight,"P070816: If either Q2-07, Q2-08 or Q2-16 are present, then the others are required",,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-08,187,Weight Qualifier,Identifier (ID),Conditional,1,2,-,Code defining the type of weight,,51,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-09,55,Flight/Voyage Number,String (AN),Optional,2,10,-,Identifying designator for the particular flight or voyage on which the cargo travels,,,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-10,128,Reference Identification Qualifier,Identifier (ID),Optional,2,3,-,Code qualifying the Reference Identification,"C1011: If Q2-10 is present, then Q2-11 is required",1503,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-11,127,Reference Identification,String (AN),Conditional,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,,,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-12,897,Vessel Code Qualifier,Identifier (ID),Optional,1,1,-,Code specifying vessel code source,,4,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-13,182,Vessel Name,String (AN),Optional,2,28,-,"Name of ship as documented in ""Lloyd's Register of Ships""",,,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-14,183,Volume,Decimal number (R),Conditional,1,8,-,Value of volumetric measure,"P1415: If either Q2-14 or Q2-15 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-15,184,Volume Unit Qualifier,Identifier (ID),Conditional,1,1,-,Code identifying the volume unit,,16,https://www.stedi.com/edi/x12-004010/segment/Q2
+Q2-16,188,Weight Unit Code,Identifier (ID),Conditional,1,1,-,Code specifying the weight unit,,8,https://www.stedi.com/edi/x12-004010/segment/Q2

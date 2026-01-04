@@ -1,0 +1,12 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+AT7-01,1650,Shipment Status Code,Identifier (ID),Conditional,2,2,-,Code indicating the status of a shipment,"E0103: Only one of AT7-01 or AT7-03 may be present
+P0102: If either AT7-01 or AT7-02 is present, then the other is required
+If AT701 is present, AT705 is the date the status occurred. If AT703 is present, AT705 is a date related to an appointment.
+If AT701 is present, AT706 is the time of the status. If AT703 is present, AT706 is the time of the appointment.",42,https://www.stedi.com/edi/x12-004010/segment/AT7
+AT7-02,1651,Shipment Status or Appointment Reason Code,Identifier (ID),Conditional,2,2,-,Code indicating the reason a shipment status or appointment reason was transmitted,,86,https://www.stedi.com/edi/x12-004010/segment/AT7
+AT7-03,1652,Shipment Appointment Status Code,Identifier (ID),Conditional,2,2,-,Code indicating the status of an appointment to pick-up or deliver a shipment,"P0304: If either AT7-03 or AT7-04 is present, then the other is required",9,https://www.stedi.com/edi/x12-004010/segment/AT7
+AT7-04,1651,Shipment Status or Appointment Reason Code,Identifier (ID),Conditional,2,2,-,Code indicating the reason a shipment status or appointment reason was transmitted,,86,https://www.stedi.com/edi/x12-004010/segment/AT7
+AT7-05,373,Date,Date (DT),Conditional,8,8,-,Date expressed as CCYYMMDD,,,https://www.stedi.com/edi/x12-004010/segment/AT7
+AT7-06,337,Time,Time (TM),Conditional,4,8,-,"Time expressed in 24-hour clock time as follows: HHMM, or HHMMSS, or HHMMSSD, or HHMMSSDD, where H = hours (00-23), M = minutes (00-59), S = integer seconds (00-59) and DD = decimal seconds; decimal seconds are expressed as follows: D = tenths (0-9) and DD = hundredths (00-99)","C0605: If AT7-06 is present, then AT7-05 is required",,https://www.stedi.com/edi/x12-004010/segment/AT7
+AT7-07,623,Time Code,Identifier (ID),Optional,2,2,-,"Code identifying the time. In accordance with International Standards Organization standard 8601, time can be specified by a + or - and an indication in hours in relation to Universal Time Coordinate (UTC) time; since + is a restricted character, + and - are substituted by P and M in the codes that follow","C0706: If AT7-07 is present, then AT7-06 is required
+If AT707 is not present then AT706 represents local time of the status.",51,https://www.stedi.com/edi/x12-004010/segment/AT7

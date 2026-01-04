@@ -1,0 +1,8 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+AT8-01,187,Weight Qualifier,Identifier (ID),Conditional,1,2,-,Code defining the type of weight,"P010203: If either AT8-01, AT8-02 or AT8-03 are present, then the others are required",51,https://www.stedi.com/edi/x12-004010/segment/AT8
+AT8-02,188,Weight Unit Code,Identifier (ID),Conditional,1,1,-,Code specifying the weight unit,,8,https://www.stedi.com/edi/x12-004010/segment/AT8
+AT8-03,81,Weight,Decimal number (R),Conditional,1,10,-,Numeric value of weight,,,https://www.stedi.com/edi/x12-004010/segment/AT8
+AT8-04,80,Lading Quantity,Numeric (N0),Optional,1,7,-,Number of units (pieces) of the lading commodity,"AT804 is the quantity of handling units that are not unitized (for example a carton). When added to the quantity in AT805, it is the total quantity of handling units in the shipment.",,https://www.stedi.com/edi/x12-004010/segment/AT8
+AT8-05,80,Lading Quantity,Numeric (N0),Optional,1,7,-,Number of units (pieces) of the lading commodity,AT805 is the quantity of handling units that are unitized (for example on a pallet or slip sheet). When added to the quantity in AT804 it is the total quantity of handling units for the shipment.,,https://www.stedi.com/edi/x12-004010/segment/AT8
+AT8-06,184,Volume Unit Qualifier,Identifier (ID),Conditional,1,1,-,Code identifying the volume unit,"P0607: If either AT8-06 or AT8-07 is present, then the other is required",16,https://www.stedi.com/edi/x12-004010/segment/AT8
+AT8-07,183,Volume,Decimal number (R),Conditional,1,8,-,Value of volumetric measure,,,https://www.stedi.com/edi/x12-004010/segment/AT8

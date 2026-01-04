@@ -1,0 +1,54 @@
+SN,Owner,Release,EDI,EdiName,FG,Level,Posn,LoopID,SAbbrv,SegName,Req,Arr,Max,Rpt,Description,Remarks,URL
+1,X12,4010,511,Requisition,RN,Heading,10.0,,ST,Transaction Set Header,Mandatory,->,1,,To indicate the start of a transaction set and to assign a control number,,https://www.stedi.com/edi/x12-004010/511
+2,X12,4010,511,Requisition,RN,Heading,20.0,,BR,Beginning Segment for Material Management,Mandatory,->,1,,To indicate the beginning of a material management transaction and transmit identifying numbers and dates,,https://www.stedi.com/edi/x12-004010/511
+3,X12,4010,511,Requisition,RN,Heading,30.0,,G62,Date/Time,Optional,->,10,,To specify pertinent dates and times,,https://www.stedi.com/edi/x12-004010/511
+4,X12,4010,511,Requisition,RN,Heading,40.0,,NTE,Note/Special Instruction,Optional,->,10,,"To transmit information in a free-form format, if necessary, for comment or special instruction",,https://www.stedi.com/edi/x12-004010/511
+5,X12,4010,511,Requisition,RN,Heading,,LM-Message Loop (0500),,,Optional,,,50,,,https://www.stedi.com/edi/x12-004010/511
+6,X12,4010,511,Requisition,RN,Heading,50.0,LM-Message Loop (0500),LM,Code Source Information,Mandatory,->,1,,To transmit standard code list identification information,The LM loop identifies logistic data common to the entire transaction set.,https://www.stedi.com/edi/x12-004010/511
+7,X12,4010,511,Requisition,RN,Heading,60.0,LM-Message Loop (0500),LQ,Industry Code,Mandatory,->,100,,Code to transmit standard industry codes,,https://www.stedi.com/edi/x12-004010/511
+8,X12,4010,511,Requisition,RN,Heading,,N1-Party identification(0700),,,Mandatory,,,20,,,https://www.stedi.com/edi/x12-004010/511
+9,X12,4010,511,Requisition,RN,Heading,70.0,N1-Party identification(0700),N1,Name,Mandatory,->,1,,"To identify a party by type of organization, name, and code",The N1 loop identifies name and or address information common to the entire transaction set.,https://www.stedi.com/edi/x12-004010/511
+10,X12,4010,511,Requisition,RN,Heading,80.0,N1-Party identification(0700),N2,Additional Name Information,Optional,->,2,,To specify additional names or those longer than 35 characters in length,,https://www.stedi.com/edi/x12-004010/511
+11,X12,4010,511,Requisition,RN,Heading,90.0,N1-Party identification(0700),N3,Address Information,Optional,->,2,,To specify the location of the named party,,https://www.stedi.com/edi/x12-004010/511
+12,X12,4010,511,Requisition,RN,Heading,100.0,N1-Party identification(0700),N4,Geographic Location,Optional,->,1,,To specify the geographic place of the named party,,https://www.stedi.com/edi/x12-004010/511
+13,X12,4010,511,Requisition,RN,Heading,110.0,N1-Party identification(0700),G61,Contact,Optional,->,5,,To identify a person or office to whom communications should be directed,Detail,https://www.stedi.com/edi/x12-004010/511
+14,X12,4010,511,Requisition,RN,Detail,,LX-Order Detail Loop (1000),,,Optional,,,>1,,,https://www.stedi.com/edi/x12-004010/511
+15,X12,4010,511,Requisition,RN,Detail,10.0,LX-Order Detail Loop (1000),LX,Assigned Number,Mandatory,->,1,,To reference a line number in a transaction set,,https://www.stedi.com/edi/x12-004010/511
+16,X12,4010,511,Requisition,RN,Detail,20.0,LX-Order Detail Loop (1000),N9,Reference Identification,Mandatory,->,>1,,To transmit identifying information as specified by the Reference Identification Qualifier,,https://www.stedi.com/edi/x12-004010/511
+17,X12,4010,511,Requisition,RN,Detail,30.0,LX-Order Detail Loop (1000),PO1,Baseline Item Data,Optional,->,>1,,To specify basic and most frequently used line item data,,https://www.stedi.com/edi/x12-004010/511
+18,X12,4010,511,Requisition,RN,Detail,50.0,LX-Order Detail Loop (1000),PWK,Paperwork,Optional,->,1,,To identify the type or transmission or both of paperwork or supporting information,,https://www.stedi.com/edi/x12-004010/511
+19,X12,4010,511,Requisition,RN,Detail,60.0,LX-Order Detail Loop (1000),DD,Demand Detail,Optional,->,100,,To describe the type of demand and the intended use of material,,https://www.stedi.com/edi/x12-004010/511
+20,X12,4010,511,Requisition,RN,Detail,70.0,LX-Order Detail Loop (1000),GF,Furnished Goods and Services,Optional,->,1,,"To specify information related to furnished material, equipment, property, information, and services",,https://www.stedi.com/edi/x12-004010/511
+21,X12,4010,511,Requisition,RN,Detail,80.0,LX-Order Detail Loop (1000),G62,Date/Time,Optional,->,20,,To specify pertinent dates and times,,https://www.stedi.com/edi/x12-004010/511
+22,X12,4010,511,Requisition,RN,Detail,90.0,LX-Order Detail Loop (1000),MAN,Marks and Numbers,Optional,->,5,,To indicate identifying marks and numbers for shipping containers,,https://www.stedi.com/edi/x12-004010/511
+23,X12,4010,511,Requisition,RN,Detail,100.0,LX-Order Detail Loop (1000),LIN,Item Identification,Optional,->,>1,,To specify basic item identification data,,https://www.stedi.com/edi/x12-004010/511
+24,X12,4010,511,Requisition,RN,Detail,105.0,LX-Order Detail Loop (1000),MEA,Measurements,Optional,->,>1,,"To specify physical measurements or counts, including dimensions, tolerances, variances, and weights (See Figures Appendix for example of use of C001)",,https://www.stedi.com/edi/x12-004010/511
+25,X12,4010,511,Requisition,RN,Detail,110.0,LX-Order Detail Loop (1000),G69,Line Item Detail - Description,Optional,->,>1,,To describe an item in free-form format,,https://www.stedi.com/edi/x12-004010/511
+26,X12,4010,511,Requisition,RN,Detail,120.0,LX-Order Detail Loop (1000),NTE,Note/Special Instruction,Optional,->,>1,,"To transmit information in a free-form format, if necessary, for comment or special instruction",,https://www.stedi.com/edi/x12-004010/511
+27,X12,4010,511,Requisition,RN,Detail,,LX LM Loop (1300),,,Optional,,,50,,,https://www.stedi.com/edi/x12-004010/511
+28,X12,4010,511,Requisition,RN,Detail,130.0,LX LM Loop (1300),LM,Code Source Information,Mandatory,->,1,,To transmit standard code list identification information,,https://www.stedi.com/edi/x12-004010/511
+29,X12,4010,511,Requisition,RN,Detail,140.0,LX LM Loop (1300),LQ,Industry Code,Mandatory,->,100,,Code to transmit standard industry codes,,https://www.stedi.com/edi/x12-004010/511
+30,X12,4010,511,Requisition,RN,Detail,,QTY Loop (1400),,,Optional,,,>1,,,https://www.stedi.com/edi/x12-004010/511
+31,X12,4010,511,Requisition,RN,Detail,150.0,QTY Loop (1400),QTY,Quantity,Mandatory,->,1,,To specify quantity information,Each iteration of the QTY loop qualifies a portion of the total quantity ordered with particular logistics information codes.,https://www.stedi.com/edi/x12-004010/511
+32,X12,4010,511,Requisition,RN,Detail,,QTY LM Loop (Loop 1500),,,Optional,,,50,,,https://www.stedi.com/edi/x12-004010/511
+33,X12,4010,511,Requisition,RN,Detail,160.0,QTY LM Loop (Loop 1500),LM,Code Source Information,Mandatory,->,1,,To transmit standard code list identification information,,https://www.stedi.com/edi/x12-004010/511
+34,X12,4010,511,Requisition,RN,Detail,170.0,QTY LM Loop (Loop 1500),LQ,Industry Code,Mandatory,->,100,,Code to transmit standard industry codes,,https://www.stedi.com/edi/x12-004010/511
+35,X12,4010,511,Requisition,RN,Detail,,N1-Detail (1800),,,Optional,,,100,,,https://www.stedi.com/edi/x12-004010/511
+36,X12,4010,511,Requisition,RN,Detail,180.0,N1-Detail (1800),N1,Name,Mandatory,->,1,,"To identify a party by type of organization, name, and code",The N1 loop identifies the name and address information unique to each use of the LX loop.,https://www.stedi.com/edi/x12-004010/511
+37,X12,4010,511,Requisition,RN,Detail,190.0,N1-Detail (1800),N2,Additional Name Information,Optional,->,2,,To specify additional names or those longer than 35 characters in length,,https://www.stedi.com/edi/x12-004010/511
+38,X12,4010,511,Requisition,RN,Detail,200.0,N1-Detail (1800),N3,Address Information,Optional,->,2,,To specify the location of the named party,,https://www.stedi.com/edi/x12-004010/511
+39,X12,4010,511,Requisition,RN,Detail,210.0,N1-Detail (1800),N4,Geographic Location,Optional,->,1,,To specify the geographic place of the named party,,https://www.stedi.com/edi/x12-004010/511
+40,X12,4010,511,Requisition,RN,Detail,215.0,N1-Detail (1800),G61,Contact,Optional,->,5,,To identify a person or office to whom communications should be directed,,https://www.stedi.com/edi/x12-004010/511
+41,X12,4010,511,Requisition,RN,Detail,,REF,,,Optional,,,>1,,,https://www.stedi.com/edi/x12-004010/511
+42,X12,4010,511,Requisition,RN,Detail,220.0,REF,REF,Reference Identification,Mandatory,->,1,,To specify identifying information,The REF loop conveys serial and lot number inventory data.,https://www.stedi.com/edi/x12-004010/511
+43,X12,4010,511,Requisition,RN,Detail,230.0,REF,G62,Date/Time,Optional,->,10,,To specify pertinent dates and times,,https://www.stedi.com/edi/x12-004010/511
+44,X12,4010,511,Requisition,RN,Detail,240.0,REF,N9,Reference Identification,Optional,->,>1,,To transmit identifying information as specified by the Reference Identification Qualifier,,https://www.stedi.com/edi/x12-004010/511
+45,X12,4010,511,Requisition,RN,Detail,250.0,REF,N1,Name,Optional,->,1,,"To identify a party by type of organization, name, and code",,https://www.stedi.com/edi/x12-004010/511
+46,X12,4010,511,Requisition,RN,Detail,260.0,REF,R4,Port or Terminal,Optional,->,1,,Contractual or operational port or point relevant to the movement of the cargo,,https://www.stedi.com/edi/x12-004010/511
+47,X12,4010,511,Requisition,RN,Detail,,LM-04,,,Optional,,,50,,,https://www.stedi.com/edi/x12-004010/511
+48,X12,4010,511,Requisition,RN,Detail,270.0,LM-04,LM,Code Source Information,Mandatory,->,1,,To transmit standard code list identification information,,https://www.stedi.com/edi/x12-004010/511
+49,X12,4010,511,Requisition,RN,Detail,280.0,LM-04,LQ,Industry Code,Mandatory,->,100,,Code to transmit standard industry codes,,https://www.stedi.com/edi/x12-004010/511
+50,X12,4010,511,Requisition,RN,Detail,,FA1,,,Optional,,,>1,,,https://www.stedi.com/edi/x12-004010/511
+51,X12,4010,511,Requisition,RN,Detail,285.0,FA1,FA1,Type of Financial Accounting Data,Mandatory,->,1,,"To specify the organization controlling the content of the accounting citation, and the purpose associated with the accounting citation",,https://www.stedi.com/edi/x12-004010/511
+52,X12,4010,511,Requisition,RN,Detail,286.0,FA1,FA2,Accounting Data,Mandatory,->,>1,,To specify the detailed accounting data,,https://www.stedi.com/edi/x12-004010/511
+53,X12,4010,511,Requisition,RN,Detail,290.0,,SE,Transaction Set Trailer,Mandatory,->,1,,To indicate the end of the transaction set and provide the count of the transmitted segments (including the beginning (ST) and ending (SE) segments),,https://www.stedi.com/edi/x12-004010/511

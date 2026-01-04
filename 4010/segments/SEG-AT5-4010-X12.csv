@@ -1,0 +1,4 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+AT5-01,152,Special Handling Code,Identifier (ID),Conditional,2,3,-,Code specifying special transportation handling instructions,E0103: Only one of AT5-01 or AT5-03 may be present,526,https://www.stedi.com/edi/x12-004010/segment/AT5
+AT5-02,560,Special Services Code,Identifier (ID),Conditional,2,10,-,Code identifying the special service,E0203: Only one of AT5-02 or AT5-03 may be present,168,https://www.stedi.com/edi/x12-004010/segment/AT5
+AT5-03,153,Special Handling Description,String (AN),Conditional,2,30,-,Free-form additional description of special handling instructions to appear on printed bill if special handling code is not adequate,,,https://www.stedi.com/edi/x12-004010/segment/AT5

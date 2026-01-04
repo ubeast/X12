@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+K1-01,61,Free-Form Message,String (AN),Mandatory,1,30,-,Free-form information,,,https://www.stedi.com/edi/x12-004010/segment/K1
+K1-02,61,Free-Form Message,String (AN),Optional,1,30,-,Free-form information,,,https://www.stedi.com/edi/x12-004010/segment/K1

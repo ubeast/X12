@@ -1,0 +1,8 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+PRF-01,324,Purchase Order Number,String (AN),Mandatory,1,22,-,Identifying number for Purchase Order assigned by the orderer/purchaser,,,https://www.stedi.com/edi/x12-004010/segment/PRF
+PRF-02,328,Release Number,String (AN),Optional,1,30,-,Number identifying a release against a Purchase Order previously placed by the parties involved in the transaction,,,https://www.stedi.com/edi/x12-004010/segment/PRF
+PRF-03,327,Change Order Sequence Number,String (AN),Optional,1,8,-,Number assigned by the orderer identifying a specific change or revision to a previously transmitted transaction set,,,https://www.stedi.com/edi/x12-004010/segment/PRF
+PRF-04,373,Date,Date (DT),Optional,8,8,-,Date expressed as CCYYMMDD,PRF04 is the date assigned by the purchaser to purchase order.,,https://www.stedi.com/edi/x12-004010/segment/PRF
+PRF-05,350,Assigned Identification,String (AN),Optional,1,20,-,Alphanumeric characters assigned for differentiation within a transaction set,,,https://www.stedi.com/edi/x12-004010/segment/PRF
+PRF-06,367,Contract Number,String (AN),Optional,1,30,-,Contract number,,,https://www.stedi.com/edi/x12-004010/segment/PRF
+PRF-07,92,Purchase Order Type Code,Identifier (ID),Optional,2,2,-,Code specifying the type of Purchase Order,,69,https://www.stedi.com/edi/x12-004010/segment/PRF

@@ -1,0 +1,7 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+N1-01,98,Entity Identifier Code,Identifier (ID),Mandatory,2,3,-,"Code identifying an organizational entity, a physical location, property or an individual",,1312,https://www.stedi.com/edi/x12-004010/segment/N1
+N1-02,93,Name,String (AN),Conditional,1,60,-,Free-form name,R0203: At least one of N1-02 or N1-03 is required,,https://www.stedi.com/edi/x12-004010/segment/N1
+N1-03,66,Identification Code Qualifier,Identifier (ID),Conditional,1,2,-,Code designating the system/method of code structure used for Identification Code (67),"P0304: If either N1-03 or N1-04 is present, then the other is required",215,https://www.stedi.com/edi/x12-004010/segment/N1
+N1-04,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,"This segment, used alone, provides the most efficient method of providing organizational identification. To obtain this efficiency the ""ID Code"" (N104) must provide a key to the table maintained by the transaction processing party.",,https://www.stedi.com/edi/x12-004010/segment/N1
+N1-05,706,Entity Relationship Code,Identifier (ID),Optional,2,2,-,Code describing entity relationship,N105 and N106 further define the type of entity in N101.,96,https://www.stedi.com/edi/x12-004010/segment/N1
+N1-06,98,Entity Identifier Code,Identifier (ID),Optional,2,3,-,"Code identifying an organizational entity, a physical location, property or an individual",,1312,https://www.stedi.com/edi/x12-004010/segment/N1

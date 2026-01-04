@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+NTE-01,363,Note Reference Code,Identifier (ID),Optional,3,3,-,Code identifying the functional area or purpose for which the note applies,,241,https://www.stedi.com/edi/x12-004010/segment/NTE
+NTE-02,352,Description,String (AN),Mandatory,1,80,-,A free-form description to clarify the related data elements and their content,,,https://www.stedi.com/edi/x12-004010/segment/NTE

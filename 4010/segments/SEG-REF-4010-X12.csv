@@ -1,0 +1,11 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+REF-01,128,Reference Identification Qualifier,Identifier (ID),Mandatory,2,3,-,Code qualifying the Reference Identification,,1503,https://www.stedi.com/edi/x12-004010/segment/REF
+REF-02,127,Reference Identification,String (AN),Conditional,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,R0203: At least one of REF-02 or REF-03 is required,,https://www.stedi.com/edi/x12-004010/segment/REF
+REF-03,352,Description,String (AN),Conditional,1,80,-,A free-form description to clarify the related data elements and their content,,,https://www.stedi.com/edi/x12-004010/segment/REF
+REF-04,C040,Reference Identifier,Composite (composite),Optional,,,,,,,https://www.stedi.com/edi/x12-004010/segment/REF
+01,128,Reference Identification Qualifier,Identifier (ID),Mandatory,2,3,-,Code qualifying the Reference Identification,,1503,https://www.stedi.com/edi/x12-004010/segment/REF
+02,127,Reference Identification,String (AN),Mandatory,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,,,https://www.stedi.com/edi/x12-004010/segment/REF
+03,128,Reference Identification Qualifier,Identifier (ID),Conditional,2,3,-,Code qualifying the Reference Identification,"P0304: If either C040-03 or C040-04 is present, then the other is required",1503,https://www.stedi.com/edi/x12-004010/segment/REF
+04,127,Reference Identification,String (AN),Conditional,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,,,https://www.stedi.com/edi/x12-004010/segment/REF
+05,128,Reference Identification Qualifier,Identifier (ID),Conditional,2,3,-,Code qualifying the Reference Identification,"P0506: If either C040-05 or C040-06 is present, then the other is required",1503,https://www.stedi.com/edi/x12-004010/segment/REF
+06,127,Reference Identification,String (AN),Conditional,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,,,https://www.stedi.com/edi/x12-004010/segment/REF

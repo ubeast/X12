@@ -1,0 +1,12 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+MS1-01,19,City Name,String (AN),Conditional,2,30,-,Free-form text for city name,"L010203: If MS1-01 is present, then at least one of MS1-02 or MS1-03 is required
+E0104: Only one of MS1-01 or MS1-04 may be present",,https://www.stedi.com/edi/x12-004010/segment/MS1
+MS1-02,156,State or Province Code,Identifier (ID),Conditional,2,2,-,Code (Standard State/Province) as defined by appropriate government agency,"C0201: If MS1-02 is present, then MS1-01 is required",,https://www.stedi.com/edi/x12-004010/segment/MS1
+MS1-03,26,Country Code,Identifier (ID),Conditional,2,3,-,Code identifying the country,"C0301: If MS1-03 is present, then MS1-01 is required",498,https://www.stedi.com/edi/x12-004010/segment/MS1
+MS1-04,1654,Longitude Code,Identifier (ID),Conditional,7,7,-,"Code indicating the longitude in degrees (3 positions), minutes (2 positions), and seconds (2 positions)","P0405: If either MS1-04 or MS1-05 is present, then the other is required
+MS104 is the longitude expressed in Degrees, Minutes, and Seconds.",,https://www.stedi.com/edi/x12-004010/segment/MS1
+MS1-05,1655,Latitude Code,Identifier (ID),Conditional,7,7,-,"Code indicating the latitude in degrees (3 positions), minutes (2 positions), seconds (2 positions)","MS105 is the latitude expressed in Degrees, Minutes, and Seconds.",,https://www.stedi.com/edi/x12-004010/segment/MS1
+MS1-06,1280,Direction Identifier Code,Identifier (ID),Optional,1,1,-,Code identifying geographic direction,"C0604: If MS1-06 is present, then MS1-04 is required
+MS106 may only be 'E' or 'W'.",16,https://www.stedi.com/edi/x12-004010/segment/MS1
+MS1-07,1280,Direction Identifier Code,Identifier (ID),Optional,1,1,-,Code identifying geographic direction,"C0705: If MS1-07 is present, then MS1-05 is required
+MS107 may only be 'N' or 'S'.",16,https://www.stedi.com/edi/x12-004010/segment/MS1

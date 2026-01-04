@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+LM-01,559,Agency Qualifier Code,Identifier (ID),Mandatory,2,2,-,Code identifying the agency assigning the code values,,176,https://www.stedi.com/edi/x12-004010/segment/LM
+LM-02,822,Source Subqualifier,String (AN),Optional,1,15,-,A reference that indicates the table or text maintained by the Source Qualifier,LM02 identifies the applicable industry code list source information.,,https://www.stedi.com/edi/x12-004010/segment/LM

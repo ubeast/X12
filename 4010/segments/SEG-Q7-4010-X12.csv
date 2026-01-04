@@ -1,0 +1,4 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+Q7-01,33,Lading Exception Code,Identifier (ID),Mandatory,1,1,-,Code indicating the condition of the shipment,,6,https://www.stedi.com/edi/x12-004010/segment/Q7
+Q7-02,211,Packaging Form Code,Identifier (ID),Optional,3,3,-,Code for packaging form of the lading quantity,"C0203: If Q7-02 is present, then Q7-03 is required",134,https://www.stedi.com/edi/x12-004010/segment/Q7
+Q7-03,80,Lading Quantity,Numeric (N0),Conditional,1,7,-,Number of units (pieces) of the lading commodity,,,https://www.stedi.com/edi/x12-004010/segment/Q7

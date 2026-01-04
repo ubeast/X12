@@ -1,0 +1,7 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+N4-01,19,City Name,String (AN),Optional,2,30,-,Free-form text for city name,"A combination of either N401 through N404, or N405 and N406 may be adequate to specify a location.",,https://www.stedi.com/edi/x12-004010/segment/N4
+N4-02,156,State or Province Code,Identifier (ID),Optional,2,2,-,Code (Standard State/Province) as defined by appropriate government agency,N402 is required only if city name (N401) is in the U.S. or Canada.,,https://www.stedi.com/edi/x12-004010/segment/N4
+N4-03,116,Postal Code,Identifier (ID),Optional,3,15,-,Code defining international postal zone code excluding punctuation and blanks (zip code for United States),,,https://www.stedi.com/edi/x12-004010/segment/N4
+N4-04,26,Country Code,Identifier (ID),Optional,2,3,-,Code identifying the country,,498,https://www.stedi.com/edi/x12-004010/segment/N4
+N4-05,309,Location Qualifier,Identifier (ID),Conditional,1,2,-,Code identifying type of location,,172,https://www.stedi.com/edi/x12-004010/segment/N4
+N4-06,310,Location Identifier,String (AN),Optional,1,30,-,Code which identifies a specific location,"C0605: If N4-06 is present, then N4-05 is required",,https://www.stedi.com/edi/x12-004010/segment/N4

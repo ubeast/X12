@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+IEA-01,I16,Number of Included Functional Groups,Numeric (N0),Mandatory,1,5,-,A count of the number of functional groups included in an interchange,,,https://www.stedi.com/edi/x12-004010/segment/IEA
+IEA-02,I12,Interchange Control Number,Numeric (N0),Mandatory,9,9,-,A control number assigned by the interchange sender,,,https://www.stedi.com/edi/x12-004010/segment/IEA

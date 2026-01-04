@@ -1,0 +1,12 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+NM1-01,98,Entity Identifier Code,Identifier (ID),Mandatory,2,3,-,"Code identifying an organizational entity, a physical location, property or an individual",,1312,https://www.stedi.com/edi/x12-004010/segment/NM1
+NM1-02,1065,Entity Type Qualifier,Identifier (ID),Mandatory,1,1,-,Code qualifying the type of entity,NM102 qualifies NM103.,14,https://www.stedi.com/edi/x12-004010/segment/NM1
+NM1-03,1035,Name Last or Organization Name,String (AN),Optional,1,35,-,Individual last name or organizational name,,,https://www.stedi.com/edi/x12-004010/segment/NM1
+NM1-04,1036,Name First,String (AN),Optional,1,25,-,Individual first name,,,https://www.stedi.com/edi/x12-004010/segment/NM1
+NM1-05,1037,Name Middle,String (AN),Optional,1,25,-,Individual middle name or initial,,,https://www.stedi.com/edi/x12-004010/segment/NM1
+NM1-06,1038,Name Prefix,String (AN),Optional,1,10,-,Prefix to individual name,,,https://www.stedi.com/edi/x12-004010/segment/NM1
+NM1-07,1039,Name Suffix,String (AN),Optional,1,10,-,Suffix to individual name,,,https://www.stedi.com/edi/x12-004010/segment/NM1
+NM1-08,66,Identification Code Qualifier,Identifier (ID),Conditional,1,2,-,Code designating the system/method of code structure used for Identification Code (67),"P0809: If either NM1-08 or NM1-09 is present, then the other is required",215,https://www.stedi.com/edi/x12-004010/segment/NM1
+NM1-09,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,,,https://www.stedi.com/edi/x12-004010/segment/NM1
+NM1-10,706,Entity Relationship Code,Identifier (ID),Conditional,2,2,-,Code describing entity relationship,NM110 and NM111 further define the type of entity in NM101.,96,https://www.stedi.com/edi/x12-004010/segment/NM1
+NM1-11,98,Entity Identifier Code,Identifier (ID),Optional,2,3,-,"Code identifying an organizational entity, a physical location, property or an individual","C1110: If NM1-11 is present, then NM1-10 is required",1312,https://www.stedi.com/edi/x12-004010/segment/NM1

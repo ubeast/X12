@@ -1,0 +1,14 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+B4-01,152,Special Handling Code,Identifier (ID),Optional,2,3,-,Code specifying special transportation handling instructions,,526,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-02,71,Inquiry Request Number,Numeric (N0),Optional,1,3,-,Identifying number assigned by inquirer,,,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-03,157,Shipment Status Code,Identifier (ID),Optional,1,2,-,Code indicating the status of a shipment,,175,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-04,373,Date,Date (DT),Optional,8,8,-,Date expressed as CCYYMMDD,B404 is the date of last reported status of cargo.,,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-05,161,Status Time,Time (TM),Optional,4,4,-,Time (HHMM) of last reported status of cargo,,,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-06,159,Status Location,String (AN),Optional,3,5,-,"Air shipment: Airport code for last reported status for a shipment; (Note: If the shipment is in-flight, the status location is the origin airport for this flight) Ground transportation: Code of carrier's terminal",,,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-07,206,Equipment Initial,String (AN),Conditional,1,4,-,Prefix or alphabetic part of an equipment unit's identifying number,"P0708: If either B4-07 or B4-08 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-08,207,Equipment Number,String (AN),Conditional,1,10,-,Sequencing or serial part of an equipment unit's identifying number (pure numeric form for equipment number is preferred),,,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-09,578,Equipment Status Code,Identifier (ID),Optional,1,2,-,Code indicating status of equipment,,14,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-10,24,Equipment Type,Identifier (ID),Optional,4,4,-,Code identifying equipment type,,,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-11,310,Location Identifier,String (AN),Conditional,1,30,-,Code which identifies a specific location,"P1112: If either B4-11 or B4-12 is present, then the other is required",,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-12,309,Location Qualifier,Identifier (ID),Conditional,1,2,-,Code identifying type of location,,172,https://www.stedi.com/edi/x12-004010/segment/B4
+B4-13,761,Equipment Number Check Digit,Numeric (N0),Optional,1,1,-,Number which designates the check digit applied to a piece of equipment,,,https://www.stedi.com/edi/x12-004010/segment/B4

@@ -1,0 +1,4 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+FA1-01,559,Agency Qualifier Code,Identifier (ID),Mandatory,2,2,-,Code identifying the agency assigning the code values,FA101 Identifies the organization controlling the assignment of financial accounting information.,176,https://www.stedi.com/edi/x12-004010/segment/FA1
+FA1-02,1300,"Service, Promotion, Allowance, or Charge Code",Identifier (ID),Optional,4,4,-,"Code identifying the service, promotion, allowance, or charge",FA102 Identifies the purpose of the accounting allowance or charge information.,1053,https://www.stedi.com/edi/x12-004010/segment/FA1
+FA1-03,248,Allowance or Charge Indicator,Identifier (ID),Optional,1,1,-,Code which indicates an allowance or charge for the service specified,,7,https://www.stedi.com/edi/x12-004010/segment/FA1

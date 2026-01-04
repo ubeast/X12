@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+N2-01,93,Name,String (AN),Mandatory,1,60,-,Free-form name,,,https://www.stedi.com/edi/x12-004010/segment/N2
+N2-02,93,Name,String (AN),Optional,1,60,-,Free-form name,,,https://www.stedi.com/edi/x12-004010/segment/N2

@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+GE-01,97,Number of Transaction Sets Included,Numeric (N0),Mandatory,1,6,-,Total number of transaction sets included in the functional group or interchange (transmission) group terminated by the trailer containing this data element,,,https://www.stedi.com/edi/x12-004010/segment/GE
+GE-02,28,Group Control Number,Numeric (N0),Mandatory,1,9,-,Assigned number originated and maintained by the sender,"The data interchange control number GE02 in this trailer must be identical to the same data element in the associated functional group header, GS06.",,https://www.stedi.com/edi/x12-004010/segment/GE

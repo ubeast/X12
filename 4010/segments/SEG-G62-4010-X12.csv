@@ -1,0 +1,7 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+G62-01,432,Date Qualifier,Identifier (ID),Conditional,2,2,-,Code specifying type of date,"R0103: At least one of G62-01 or G62-03 is required
+P0102: If either G62-01 or G62-02 is present, then the other is required",137,https://www.stedi.com/edi/x12-004010/segment/G62
+G62-02,373,Date,Date (DT),Conditional,8,8,-,Date expressed as CCYYMMDD,,,https://www.stedi.com/edi/x12-004010/segment/G62
+G62-03,176,Time Qualifier,Identifier (ID),Conditional,1,2,-,Code specifying the reported time,"P0304: If either G62-03 or G62-04 is present, then the other is required",42,https://www.stedi.com/edi/x12-004010/segment/G62
+G62-04,337,Time,Time (TM),Conditional,4,8,-,"Time expressed in 24-hour clock time as follows: HHMM, or HHMMSS, or HHMMSSD, or HHMMSSDD, where H = hours (00-23), M = minutes (00-59), S = integer seconds (00-59) and DD = decimal seconds; decimal seconds are expressed as follows: D = tenths (0-9) and DD = hundredths (00-99)",,,https://www.stedi.com/edi/x12-004010/segment/G62
+G62-05,623,Time Code,Identifier (ID),Optional,2,2,-,"Code identifying the time. In accordance with International Standards Organization standard 8601, time can be specified by a + or - and an indication in hours in relation to Universal Time Coordinate (UTC) time; since + is a restricted character, + and - are substituted by P and M in the codes that follow",,51,https://www.stedi.com/edi/x12-004010/segment/G62

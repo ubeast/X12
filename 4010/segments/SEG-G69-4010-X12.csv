@@ -1,0 +1,2 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+G69-01,369,Free-form Description,String (AN),Mandatory,1,45,-,Free-form descriptive text,,,https://www.stedi.com/edi/x12-004010/segment/G69

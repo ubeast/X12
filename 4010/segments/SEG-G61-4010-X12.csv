@@ -1,0 +1,7 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+G61-01,366,Contact Function Code,Identifier (ID),Mandatory,2,2,-,Code identifying the major duty or responsibility of the person or group named,,230,https://www.stedi.com/edi/x12-004010/segment/G61
+G61-02,93,Name,String (AN),Mandatory,1,60,-,Free-form name,,,https://www.stedi.com/edi/x12-004010/segment/G61
+G61-03,365,Communication Number Qualifier,Identifier (ID),Conditional,2,2,-,Code identifying the type of communication number,"P0304: If either G61-03 or G61-04 is present, then the other is required
+G6103 qualifies G6104.",40,https://www.stedi.com/edi/x12-004010/segment/G61
+G61-04,364,Communication Number,String (AN),Conditional,1,80,-,Complete communications number including country or area code when applicable,,,https://www.stedi.com/edi/x12-004010/segment/G61
+G61-05,443,Contact Inquiry Reference,String (AN),Optional,1,20,-,Additional reference number or description to clarify a contact number,,,https://www.stedi.com/edi/x12-004010/segment/G61

@@ -1,0 +1,2 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+LX-01,554,Assigned Number,Numeric (N0),Mandatory,1,6,-,Number assigned for differentiation within a transaction set,,,https://www.stedi.com/edi/x12-004010/segment/LX

@@ -1,0 +1,3 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+SE-01,96,Number of Included Segments,Numeric (N0),Mandatory,1,10,-,Total number of segments included in a transaction set including ST and SE segments,,,https://www.stedi.com/edi/x12-004010/segment/SE
+SE-02,329,Transaction Set Control Number,String (AN),Mandatory,4,9,-,Identifying control number that must be unique within the transaction set functional group assigned by the originator for a transaction set,,,https://www.stedi.com/edi/x12-004010/segment/SE

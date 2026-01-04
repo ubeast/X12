@@ -1,0 +1,12 @@
+Position,Element,Name,Type,Requirement,Min,Max,Repeat,Notes,Remarks,Codes,URL
+BR-01,353,Transaction Set Purpose Code,Identifier (ID),Mandatory,2,2,-,Code identifying purpose of transaction set,,65,https://www.stedi.com/edi/x12-004010/segment/BR
+BR-02,640,Transaction Type Code,Identifier (ID),Mandatory,2,2,-,Code specifying the type of transaction,,446,https://www.stedi.com/edi/x12-004010/segment/BR
+BR-03,373,Date,Date (DT),Mandatory,8,8,-,Date expressed as CCYYMMDD,BR03 is the date of the transaction set preparation.,,https://www.stedi.com/edi/x12-004010/segment/BR
+BR-04,67,Identification Code,String (AN),Conditional,2,80,-,Code identifying a party or other code,,,https://www.stedi.com/edi/x12-004010/segment/BR
+BR-05,66,Identification Code Qualifier,Identifier (ID),Optional,1,2,-,Code designating the system/method of code structure used for Identification Code (67),"C0504: If BR-05 is present, then BR-04 is required",215,https://www.stedi.com/edi/x12-004010/segment/BR
+BR-06,306,Action Code,Identifier (ID),Optional,1,2,-,Code indicating type of action,,296,https://www.stedi.com/edi/x12-004010/segment/BR
+BR-07,128,Reference Identification Qualifier,Identifier (ID),Conditional,2,3,-,Code qualifying the Reference Identification,"P0708: If either BR-07 or BR-08 is present, then the other is required",1503,https://www.stedi.com/edi/x12-004010/segment/BR
+BR-08,127,Reference Identification,String (AN),Conditional,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,,,https://www.stedi.com/edi/x12-004010/segment/BR
+BR-09,337,Time,Time (TM),Optional,4,8,-,"Time expressed in 24-hour clock time as follows: HHMM, or HHMMSS, or HHMMSSD, or HHMMSSDD, where H = hours (00-23), M = minutes (00-59), S = integer seconds (00-59) and DD = decimal seconds; decimal seconds are expressed as follows: D = tenths (0-9) and DD = hundredths (00-99)",BR09 is the time of the transaction set preparation,,https://www.stedi.com/edi/x12-004010/segment/BR
+BR-10,128,Reference Identification Qualifier,Identifier (ID),Conditional,2,3,-,Code qualifying the Reference Identification,"P1011: If either BR-10 or BR-11 is present, then the other is required",1503,https://www.stedi.com/edi/x12-004010/segment/BR
+BR-11,127,Reference Identification,String (AN),Conditional,1,30,-,Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier,,,https://www.stedi.com/edi/x12-004010/segment/BR
