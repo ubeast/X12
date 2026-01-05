@@ -1,0 +1,17 @@
+{
+    "metadata": {
+        "Filename": "DE-I03-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "I03",
+        "NameShort": "Security Information Qualifier",
+        "MinLen": 2,
+        "MaxLen": 2,
+        "Records": 2,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/I03"
+    },
+    "data": {
+        "00": "No Security Information Present (No Meaningful Information in I04)",
+        "01": "Password - "
+    }
+}

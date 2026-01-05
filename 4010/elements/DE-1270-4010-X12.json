@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "Filename": "DE-1270-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "1270",
+        "NameShort": "Code List Qualifier Code",
+        "MinLen": 1,
+        "MaxLen": 3,
+        "Records": 22,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/1270"
+    },
+    "data": {
+        "TCL": "Template Characteristic Lookup",
+        "TD": "Tertiary diagnosis",
+        "TE": "Treasury Management Association Service Code",
+        "TF": "Title Exception and Requirement Code List",
+        "TG": "Title Document Code List",
+        "TOL": "Template Owner Lookup",
+        "TR": "Report Code",
+        "TTL": "Template Type Lookup",
+        "TX": "Follow-up Code",
+        "TY": "Reportable Event Code",
+        "U": "Residential and Commercial Room Code",
+        "UP": "Unsolicited Proposal Rejection Reason",
+        "UR": "Event Reappearance Code",
+        "US": "Event Abatement Code",
+        "UU": "Unit Code",
+        "V": "Violation Type Code List",
+        "W": "Court Issued Warrant Type Code",
+        "WDL": "When Discovered Lookup",
+        "X": "Vehicle Class",
+        "Y": "Rental Charge",
+        "Z": "Cancellation Reason",
+        "ZZ": "Mutually Defined - "
+    }
+}

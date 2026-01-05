@@ -1,0 +1,20 @@
+{
+    "metadata": {
+        "Filename": "DE-I05-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "I05",
+        "NameShort": "Interchange ID Qualifier",
+        "MinLen": 2,
+        "MaxLen": 2,
+        "Records": 5,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/I05"
+    },
+    "data": {
+        "37": "Society of Property Information Compilers and Analysts",
+        "AM": "Association Mexicana del Codigo de Producto (AMECOP) Communication ID",
+        "NR": "National Retail Merchants Association (NRMA) - Assigned",
+        "SN": "Standard Address Number",
+        "ZZ": "Mutually Defined - "
+    }
+}

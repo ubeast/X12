@@ -1,0 +1,17 @@
+{
+    "metadata": {
+        "Filename": "DE-455-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "455",
+        "NameShort": "Responsible Agency Code",
+        "MinLen": 1,
+        "MaxLen": 2,
+        "Records": 2,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/455"
+    },
+    "data": {
+        "T": "Transportation Data Coordinating Committee (TDCC)",
+        "X": "Accredited Standards Committee X12 - "
+    }
+}

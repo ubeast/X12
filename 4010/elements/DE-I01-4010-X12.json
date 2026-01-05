@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "Filename": "DE-I01-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "I01",
+        "NameShort": "Authorization Information Qualifier",
+        "MinLen": 2,
+        "MaxLen": 2,
+        "Records": 7,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/I01"
+    },
+    "data": {
+        "00": "No Authorization Information Present (No Meaningful Information in I02)",
+        "01": "UCS Communications ID",
+        "02": "EDX Communications ID",
+        "03": "Additional Data Identification",
+        "04": "Rail Communications ID",
+        "05": "Department of Defense (DoD) Communication Identifier",
+        "06": "United States Federal Government Communication Identifier - "
+    }
+}

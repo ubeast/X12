@@ -1,0 +1,21 @@
+{
+    "metadata": {
+        "Filename": "DE-33-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "33",
+        "NameShort": "Lading Exception Code",
+        "MinLen": 1,
+        "MaxLen": 1,
+        "Records": 6,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/33"
+    },
+    "data": {
+        "A": "All Short",
+        "D": "Damaged",
+        "E": "Entire Shipment Refused",
+        "O": "Overage",
+        "P": "Partial Shipment",
+        "W": "Wrong Product - "
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "Filename": "DE-248-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "248",
+        "NameShort": "Allowance or Charge Indicator",
+        "MinLen": 1,
+        "MaxLen": 1,
+        "Records": 7,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/248"
+    },
+    "data": {
+        "A": "Allowance",
+        "C": "Charge",
+        "N": "No Allowance or Charge",
+        "P": "Promotion",
+        "Q": "Charge Request",
+        "R": "Allowance Request",
+        "S": "Service - "
+    }
+}

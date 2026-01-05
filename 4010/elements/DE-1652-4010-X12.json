@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "Filename": "DE-1652-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "1652",
+        "NameShort": "Shipment Appointment Status Code",
+        "MinLen": 2,
+        "MaxLen": 2,
+        "Records": 9,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/1652"
+    },
+    "data": {
+        "AA": "Pick-up Appointment Date and/or Time",
+        "AB": "Delivery Appointment Date and/or Time",
+        "AC": "Estimated Delivery Appointment Date and/or Time",
+        "ED": "Deliver No Earlier Than Date and/or Time",
+        "EP": "Pick-up No Earlier Than Date and/or Time",
+        "LD": "Deliver No Later Than Date and/or Time",
+        "LP": "Pick-up No Later Than Date and/or Time",
+        "X9": "Delivery Appointment Secured on This Date and/or Time",
+        "XA": "Pick-up Appointment Secured on This Date and/or Time - "
+    }
+}

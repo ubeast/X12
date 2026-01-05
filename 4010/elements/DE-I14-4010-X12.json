@@ -1,0 +1,18 @@
+{
+    "metadata": {
+        "Filename": "DE-I14-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "I14",
+        "NameShort": "Usage Indicator",
+        "MinLen": 1,
+        "MaxLen": 1,
+        "Records": 3,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/I14"
+    },
+    "data": {
+        "I": "Information",
+        "P": "Production Data",
+        "T": "Test Data - "
+    }
+}

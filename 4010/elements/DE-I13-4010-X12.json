@@ -1,0 +1,17 @@
+{
+    "metadata": {
+        "Filename": "DE-I13-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "I13",
+        "NameShort": "Acknowledgment Requested",
+        "MinLen": 1,
+        "MaxLen": 1,
+        "Records": 2,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/I13"
+    },
+    "data": {
+        "0": "No Acknowledgment Requested",
+        "1": "Interchange Acknowledgment Requested - "
+    }
+}

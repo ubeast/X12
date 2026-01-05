@@ -1,0 +1,20 @@
+{
+    "metadata": {
+        "Filename": "DE-797-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "797",
+        "NameShort": "Security Technique Code",
+        "MinLen": 2,
+        "MaxLen": 2,
+        "Records": 5,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/797"
+    },
+    "data": {
+        "9A": "Authentication",
+        "9E": "Authentication and Encryption",
+        "9N": "Encryption",
+        "OC": "Clear Text",
+        "ZZ": "Mutually Defined - "
+    }
+}

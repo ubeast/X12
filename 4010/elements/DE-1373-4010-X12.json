@@ -1,0 +1,27 @@
+{
+    "metadata": {
+        "Filename": "DE-1373-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "1373",
+        "NameShort": "Measurement Method or Device",
+        "MinLen": 2,
+        "MaxLen": 4,
+        "Records": 12,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/1373"
+    },
+    "data": {
+        "BM": "Bellows Meter - A type recording instrument which employs flexible vessels that expand when pressure is applied; the movement or expansion of the vessels is an indicator of the pressure applied; bellows meters are commonly used in low pressure or differential pressure measurement; \"Bellows Meter\" terminology is used to indicate that corrections in volume calculations are applied with respect to Bellows recorder characteristics",
+        "BO": "Based on 120 Days List to Contract",
+        "DM": "Displacement Meter - A metering instrument in which mechanical displacement of known volume chambers are repeatedly filled and emptied; the volume of the chambers times the cycles of displacement is equal to the measure of volume; \"Displacement Meter\" terminology may also be used to define the application of volume calculation",
+        "FT": "Flange Tap - A critical parameter of design for orifice measurement where the pressure ports for the sensing of static and differential pressure are located one inch upstream and one inch downstream of the orifice plate; \"Flange Tap\" terminology is used to define the tap configuration employed",
+        "MA": "Measured Over Six Months",
+        "MM": "Mercury Meter - A type of recording instrument which employs mercury displacement in a fixed chamber when pressure is applied, the displacement is an indicator of the pressure applied; the mercury recorder is primarily used in low pressure differential pressure measurement; \"Mercury Meter\" terminology is used to indicate that corrections is volume calculations are applied with respect to mercury recorder characteristics",
+        "OM": "Orifice Meter - A metering instrument used to measure flowing fluid through a pipe by velocity displacement and employing orifice technologies; the orifice meter is an inferential device which senses the pressure differential created by the passage of a fluid through an orifice of critical diameter placed in the pipe; a rate of flow is calculated from the fluid flowing and instrument parameters to determine the measure of volume; \"Orifice Meter\" terminology may also be used to define the application of volume calculation",
+        "PT": "Pipe Tap - A critical parameter of design for orifice measurement where the pressure ports for the sensing of static and differential pressure are located in a distance of two and one-half times the published inside diameter of the meter upstream of the orifice place and a distance of eight times the published inside diameter of the meter downstream of the orifice plate; \"Pipe Tap\" terminology is used to define the tap configuration employed",
+        "TM": "Turbine Meter - A type of metering instrument used to measure flowing fluid through a pipe by velocity displacement and employing turbine senses the rotation of a rotor axis turbine which is parallel to the axis of flow and proportional to the rate; the measure of volume is determined by counting the revolutions of the rotor; \"Turbine Meter\" terminology may also be used to define the application of volume calculation",
+        "VA": "Valued at 90 Day Marketing Time Method",
+        "VB": "Valued at 120 Day Marketing Time Method",
+        "VC": "Valued at 180 Day Marketing Time Method - "
+    }
+}

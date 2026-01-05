@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "Filename": "DE-897-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "897",
+        "NameShort": "Vessel Code Qualifier",
+        "MinLen": 1,
+        "MaxLen": 1,
+        "Records": 4,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/897"
+    },
+    "data": {
+        "B": "U.S. Bureau of Census",
+        "C": "Ship's Radio Call Signal",
+        "L": "Lloyd's Register of Shipping",
+        "Z": "Mutually Defined - "
+    }
+}

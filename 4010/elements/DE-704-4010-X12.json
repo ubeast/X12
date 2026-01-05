@@ -1,0 +1,29 @@
+{
+    "metadata": {
+        "Filename": "DE-704-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "704",
+        "NameShort": "Paperwork/Report Action Code",
+        "MinLen": 1,
+        "MaxLen": 2,
+        "Records": 14,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/704"
+    },
+    "data": {
+        "1": "Used to Initiate This Report",
+        "2": "Report to be Filed",
+        "3": "Complete - Use the information provided, add additional required data, distribute as indicated",
+        "4": "Notarize - Have notarized prior to distribution",
+        "5": "Generate",
+        "6": "Letterhead Required",
+        "CH": "Chamberize",
+        "CO": "Consularize",
+        "DM": "Document is Missing",
+        "NT": "Generate in Language of Ultimate Destination",
+        "ON": "Original Not Required (Copies Acceptable)",
+        "OR": "Original Required",
+        "PV": "Provided",
+        "SG": "Sign (Power of Attorney) - "
+    }
+}

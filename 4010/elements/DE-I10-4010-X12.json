@@ -1,0 +1,16 @@
+{
+    "metadata": {
+        "Filename": "DE-I10-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "I10",
+        "NameShort": "Interchange Control Standards Identifier",
+        "MinLen": 1,
+        "MaxLen": 1,
+        "Records": 1,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/I10"
+    },
+    "data": {
+        "U": "U.S. EDI Community of ASC X12, TDCC, and UCS - "
+    }
+}

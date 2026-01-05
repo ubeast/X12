@@ -1,0 +1,29 @@
+{
+    "metadata": {
+        "Filename": "DE-1065-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "1065",
+        "NameShort": "Entity Type Qualifier",
+        "MinLen": 1,
+        "MaxLen": 1,
+        "Records": 14,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/1065"
+    },
+    "data": {
+        "1": "Person",
+        "2": "Non-Person Entity",
+        "3": "Unknown",
+        "4": "Corporation",
+        "5": "Trust",
+        "6": "Organization",
+        "7": "Limited Liability Corporation",
+        "8": "Partnership",
+        "9": "S Corporation",
+        "C": "Custodial",
+        "D": "Non-Profit Organization",
+        "E": "Sole Proprietorship",
+        "G": "Government",
+        "L": "Limited Partnership - "
+    }
+}

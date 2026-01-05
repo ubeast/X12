@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "Filename": "DE-1525-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "1525",
+        "NameShort": "Request Category Code",
+        "MinLen": 1,
+        "MaxLen": 2,
+        "Records": 7,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/1525"
+    },
+    "data": {
+        "AR": "Admission Review",
+        "BA": "Batch",
+        "HS": "Health Services Review",
+        "IN": "Individual",
+        "PR": "Program Referral",
+        "RE": "Recurring",
+        "SC": "Specialty Care Review - "
+    }
+}

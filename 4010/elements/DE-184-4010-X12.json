@@ -1,0 +1,31 @@
+{
+    "metadata": {
+        "Filename": "DE-184-4010-X12.json",
+        "Owner": "X12",
+        "Release": "4010",
+        "ElementID": "184",
+        "NameShort": "Volume Unit Qualifier",
+        "MinLen": 1,
+        "MaxLen": 1,
+        "Records": 16,
+        "URL": "https://www.stedi.com/edi/x12-004010/element/184"
+    },
+    "data": {
+        "B": "Barge",
+        "C": "Cubic Centimeters",
+        "D": "Cord",
+        "E": "Cubic Feet",
+        "F": "100 Board Feet",
+        "G": "Gallons",
+        "H": "Hundreds of Measurement Tons",
+        "L": "Load",
+        "M": "Cubic Decimeters",
+        "N": "Cubic Inches",
+        "R": "Car",
+        "S": "Measurement Ton",
+        "T": "Container",
+        "U": "Volumetric Unit",
+        "V": "Liter",
+        "X": "Cubic Meters - "
+    }
+}
