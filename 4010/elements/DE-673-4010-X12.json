@@ -11,7 +11,7 @@
         "URL": "https://www.stedi.com/edi/x12-004010/element/673"
     },
     "data": {
-        " 01": "Discrete Quantity",
+        "01": "Discrete Quantity",
         "1A": "Original Duration (in calendar units) - The initial planned amount of time needed to complete a task or activity",
         "1B": "Current Duration (in calendar units) - The current amount of time needed to complete a task or activity",
         "1C": "Remaining Duration (in calendar units) - The remaining amount of time needed to complete a task or activity",
