@@ -49,6 +49,6 @@
         "UN": "Unstructured",
         "YM": "Year and Month Expressed in Format YYMM",
         "YMM": "Range of Year and Months, Expressed in CCYYMMM-MMM Format",
-        "YY": "Last Two Digits of Year Expressed in Format CCYY - The year in the century (00 to 99) - "
+        "YY": "Last Two Digits of Year Expressed in Format CCYY - The year in the century (00 to 99)"
     }
 }

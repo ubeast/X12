@@ -592,7 +592,7 @@
         "OW": "Overall Width",
         "OX": "Ownership Share",
         "OXI": "Oxidizable Substance - Represents the amount of a substance that can undergo oxidation",
-        "OXS": "Oxidizing Substance - A substance which removes electrons from other substances ",
+        "OXS": "Oxidizing Substance - A substance which removes electrons from other substances",
         "OY": "Operating Weight",
         "P1": "Price",
         "PA": "Package Separation",
@@ -930,6 +930,6 @@
         "ZW": "Tungsten",
         "ZZN": "Zinc",
         "ZZR": "Zirconium",
-        "ZZZ": "Mutually Defined - "
+        "ZZZ": "Mutually Defined"
     }
 }

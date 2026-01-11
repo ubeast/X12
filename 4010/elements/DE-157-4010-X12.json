@@ -64,7 +64,7 @@
         "DR": "Repair Authorization Received",
         "DS": "Damage Survey Requested",
         "DT": "Damage Survey Completed",
-        "E": "Estimated to Arrive (En Route) - Shipment is estimated to arrive at the location specified ",
+        "E": "Estimated to Arrive (En Route) - Shipment is estimated to arrive at the location specified",
         "EA": "Estimate Approved",
         "ED": "Early Delivery Appointment Date and/or Time",
         "EE": "Empty Equipment Dispatched - Empty equipment dispatched to pick up cargo",
@@ -144,7 +144,7 @@
         "RI": "Movement Type Changed from Not In-bond to In-bond",
         "RL": "Rail Departure from Origin Intermodal Ramp",
         "RN": "Renotification - Notify party at destination has been renotified",
-        "S": "Spotted at Consignee's Location - Shipment in a trailer has been spotted at the consignee or receiver's premises ",
+        "S": "Spotted at Consignee's Location - Shipment in a trailer has been spotted at the consignee or receiver's premises",
         "SA": "Shipment Split",
         "SB": "Shipment Consolidation",
         "SC": "Seals Altered",
@@ -185,6 +185,6 @@
         "XB": "Shipment Acknowledged - Shipment has been accepted by the carrier, but awaiting pick-up and/or delivery appointment(s) before dispatching equipment for pick-up",
         "Y": "Constructively Placed",
         "Z": "Actually Placed",
-        "ZZ": "Mutually Defined - "
+        "ZZ": "Mutually Defined"
     }
 }

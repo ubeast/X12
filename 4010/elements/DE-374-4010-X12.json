@@ -418,7 +418,7 @@
         "408": "Weighed",
         "409": "Date of Deed in Lieu - The date a voluntary conveyance of a property by deed in lieu is recorded",
         "410": "Date of Firm Commitment - The date an obligation to ensure the mortgage is issued",
-        "411": "Expiration Date of Extension to Foreclose - The last day of a given time limit to commence foreclosure ",
+        "411": "Expiration Date of Extension to Foreclose - The last day of a given time limit to commence foreclosure",
         "412": "Date of Notice to Convey - The date of the authorization to assign the contractual rights of a mortgage",
         "413": "Date of Release of Bankruptcy - The date of release from bankruptcy status",
         "414": "Optimistic Early Start - Best case earliest date a task or activity can begin",
@@ -529,7 +529,7 @@
         "519": "Date Bankruptcy Filed - Date of last bankruptcy action",
         "520": "Date of Damage - The date that the property became damaged",
         "521": "Date Hazard Insurance Policy Cancelled - The date the hazard insurance policy was cancelled",
-        "522": "Expiration Date to Submit Title Evidence - The last day of an approved extension to submit title - evidence without penalty ",
+        "522": "Expiration Date to Submit Title Evidence - The last day of an approved extension to submit title - evidence without penalty",
         "523": "Date of Claim - The date the claim form is prepared",
         "524": "Date of Notice of Referral for Assignment - The date mortgagors are notified in writing that it is their lender's opinion that they are qualified for an assignment program and that their defaulted mortgage should be assigned",
         "525": "Date of Notice of Probable Ineligibility for Assignment - The date mortgagors are notified in writing that it is their lender's opinion that they are not qualified for an assignment program but they may apply directly to the program sponsor for consideration",
@@ -1122,6 +1122,6 @@
         "WAY": "Waybill",
         "YXX": "Programmed Fiscal Year",
         "YXY": "Programmed Calendar Year",
-        "ZZZ": "Mutually Defined - "
+        "ZZZ": "Mutually Defined"
     }
 }

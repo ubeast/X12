@@ -40,6 +40,6 @@
         "T": "Transshipment Port (Contractual) - Place at which cargo is transferred to another carrier",
         "V": "Prepaid Charge Location (Operational) - Place at which prepaid charges are paid",
         "W": "Bill of Lading Release Office (Operational) - Place at which original bills of lading are released to the shipper or his agent",
-        "Y": "Relay Port (Operational) - Port at which cargo is transferred from one vessel to another - "
+        "Y": "Relay Port (Operational) - Port at which cargo is transferred from one vessel to another"
     }
 }

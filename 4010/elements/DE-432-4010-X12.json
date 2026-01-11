@@ -113,7 +113,7 @@
         "BC": "Publication Date - The date when a document was published",
         "BD": "Required By - The date when material is required to be on a site available for use",
         "BE": "Validated - The date when material obligations were verified",
-        "BF": "Pack Date - The date when requested material was packaged ",
+        "BF": "Pack Date - The date when requested material was packaged",
         "BG": "Backorder Release Date - The date when backordered material was made available for issue",
         "BH": "Offered for Delivery - The date when material was offered for delivery by a carrier",
         "BI": "Inspection - The date when material was inspected",
@@ -147,6 +147,6 @@
         "PE": "Period End",
         "SE": "Date Shipped to Port of Embarkation (POE)",
         "TA": "Original Transaction",
-        "TR": "Transfer - "
+        "TR": "Transfer"
     }
 }

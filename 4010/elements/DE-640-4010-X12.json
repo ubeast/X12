@@ -362,7 +362,7 @@
         "S4": "Submission",
         "SA": "Stand-alone Lease Schedule",
         "SB": "Second Notice of Balance Due",
-        "SC": "Deprescription - A structure in which a carton contains only one SKU ",
+        "SC": "Deprescription - A structure in which a carton contains only one SKU",
         "SD": "Supply Process Deficiency",
         "SE": "Special Bilateral",
         "SF": "Single Family Program",
@@ -456,6 +456,6 @@
         "ZT": "Report of Rejection or Return of Work Candidate",
         "ZU": "Request Work Candidate Change",
         "ZW": "Sort and Segregate Detail",
-        "ZZ": "Mutually Defined - "
+        "ZZ": "Mutually Defined"
     }
 }

@@ -7,10 +7,32 @@
         "NameShort": "Rate/Value Qualifier",
         "MinLen": 2,
         "MaxLen": 2,
-        "Records": 141,
+        "Records": 163,
         "URL": "https://www.stedi.com/edi/x12-004010/element/122"
     },
     "data": {
+        "AA": "Percent Of Amount Advanced",
+        "AB": "Accelerated",
+        "AC": "Percent Of Amount Of Collection",
+        "AD": "Addition",
+        "AE": "Percent of Outstanding Principal Balance",
+        "AF": "Percent of Original Principal Balance",
+        "AV": "Ad Valorum (Per Cent of Value)",
+        "B0": "Per Board Feet",
+        "B1": "Per 100 Board Feet",
+        "BF": "Per 1,000 Board Feet",
+        "BL": "Bill of Lading Declared Value",
+        "BR": "Per Barrel",
+        "C5": "Per 50 Cubic Feet",
+        "CE": "Ceiling",
+        "CF": "Per 40 Cubic Feet (Measurement Ton)",
+        "CM": "Per Cubic Meter",
+        "CO": "Cost per Unit",
+        "CP": "Computer Units",
+        "CS": "Per Special Charge",
+        "CT": "Charge or Credit Based on Percentage of Total",
+        "CW": "Per Hundred Weight - Describes a transportation rate that applies to every one hundred pounds of total weight of an individual shipment",
+        "DD": "Department of Defense Unique Codes",
         "DE": "Decrease",
         "DI": "Divisor",
         "DP": "Per $1000",
@@ -151,6 +173,6 @@
         "WK": "Per Week",
         "WM": "Weight or Measurement",
         "XP": "Maximum Per Person",
-        "YR": "Per Year - "
+        "YR": "Per Year"
     }
 }

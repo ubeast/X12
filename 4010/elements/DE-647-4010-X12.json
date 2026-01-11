@@ -172,6 +172,6 @@
         "VND": "Vehicle Not Departed - Storage charges have been billed prior to reported departure of a vehicle from storage",
         "VOS": "Offsite Storage - Storage charges have been reported for an item known to be at another location",
         "ZDS": "Zero Storage Days - The arrival and departure dates are equal, per diem storage charges have not accrued",
-        "ZZZ": "Mutually Defined - "
+        "ZZZ": "Mutually Defined"
     }
 }

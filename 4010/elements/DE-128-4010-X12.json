@@ -11,7 +11,7 @@
         "URL": "https://www.stedi.com/edi/x12-004010/element/128"
     },
     "data": {
-        " 0A": "Supervisory Appraiser Certification Number",
+        "0A": "Supervisory Appraiser Certification Number",
         "0B": "State License Number",
         "0D": "Subject Property Verification Source",
         "0E": "Subject Property Reference Number",

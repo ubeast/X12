@@ -189,7 +189,7 @@
         "92": "Calories per Cubic Centimeter",
         "93": "Calories per Gram",
         "94": "Curl Units",
-        "95": "20,000 Gallon Tankcar - A 20,000 gallon liquid capacity enclosed rail car ",
+        "95": "20,000 Gallon Tankcar - A 20,000 gallon liquid capacity enclosed rail car",
         "96": "10,000 Gallon Tankcar - A 10,000 gallon liquid capacity enclosed rail car",
         "97": "10 Kilogram Drum - A cylindrical container whose contents weigh 10 kilograms when full",
         "98": "15 Kilogram Drum - A cylindrical container whose contents weigh 15 kilograms when full",
@@ -804,6 +804,6 @@
         "ZB": "Biweekly",
         "ZC": "Semiannual",
         "ZP": "Page",
-        "ZZ": "Mutually Defined - "
+        "ZZ": "Mutually Defined"
     }
 }

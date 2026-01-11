@@ -33,6 +33,6 @@
         "S": "Origin Carrier, Shipper's Routing (Rail)",
         "V": "Intermediate Switch Carrier",
         "X": "Last Carrier in Route on Return Route Move",
-        "Z": "Mutually Defined - "
+        "Z": "Mutually Defined"
     }
 }

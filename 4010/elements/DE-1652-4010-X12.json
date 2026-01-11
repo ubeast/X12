@@ -19,6 +19,6 @@
         "LD": "Deliver No Later Than Date and/or Time",
         "LP": "Pick-up No Later Than Date and/or Time",
         "X9": "Delivery Appointment Secured on This Date and/or Time",
-        "XA": "Pick-up Appointment Secured on This Date and/or Time - "
+        "XA": "Pick-up Appointment Secured on This Date and/or Time"
     }
 }

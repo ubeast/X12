@@ -90,7 +90,7 @@
         "PP": "Power Pack - A container holding a motor, generator, and fuel tank; used to provide power for refrigerated containers on a double stack train",
         "PT": "Protected Trailer",
         "PU": "Pick-up Truck",
-        "RA": "Fixed-Rack, Flat-Bed Trailer - A flatbed trailer with an A-frame ",
+        "RA": "Fixed-Rack, Flat-Bed Trailer - A flatbed trailer with an A-frame",
         "RC": "Refrigerated (Reefer) Car",
         "RD": "Fixed-Rack, Double Drop Trailer - A double-drop, flatbed with an A-frame",
         "RE": "Flat Car (End Bulkheads)",
@@ -144,6 +144,6 @@
         "VS": "Vessel, Ocean, Lash",
         "VT": "Vessel, Ocean, Containership",
         "WR": "Container with Wavy or Ripple Sides - Walls must be wavy or ripple type",
-        "WY": "Railroad Maintenance of Way Car - "
+        "WY": "Railroad Maintenance of Way Car"
     }
 }

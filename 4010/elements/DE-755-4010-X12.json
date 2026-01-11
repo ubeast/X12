@@ -220,7 +220,7 @@
         "EL": "Eligibility",
         "EP": "Experimental Material Purchase Order",
         "ER": "Engineering Change Request",
-        "EX": "Shippers Export Declaration - An official document submitted by a U.S. exporter whenever a shipment of merchandise goes from the U.S. to a foreign destination; joint bureau of the Census-International Trade Administration issues this form used for compiling U.S. export control laws ",
+        "EX": "Shippers Export Declaration - An official document submitted by a U.S. exporter whenever a shipment of merchandise goes from the U.S. to a foreign destination; joint bureau of the Census-International Trade Administration issues this form used for compiling U.S. export control laws",
         "EY": "Barrel for Barrel Exchange Contract Status Statement",
         "F1": "Cost Performance Report (CPR) Format 1 - Detailed contract status report including current reporting month values at specified levels of the work breakdown structure",
         "F2": "Cost Performance Report (CPR) Format 2 - Detailed contract status report at specified levels of the organization breakdown structure",
@@ -244,7 +244,7 @@
         "HC": "Health Certificate",
         "HR": "Health Clinic Records",
         "HW": "Hazardous Waste Manifest",
-        "I2": "Consular Invoice - Document required by some foreign countries; describes a shipment of goods and shows other information such as the consignor, consignee, and shipment's value; used by the country's customs officials to verify the value, quantity, and nature of the shipment, and certified by a consular official of the foreign country ",
+        "I2": "Consular Invoice - Document required by some foreign countries; describes a shipment of goods and shows other information such as the consignor, consignee, and shipment's value; used by the country's customs officials to verify the value, quantity, and nature of the shipment, and certified by a consular official of the foreign country",
         "I3": "Customs Invoice - A few countries require the use of a special invoice form; usually in place of a seller's commercial invoice, this form requires all of the usual data required in a commercial invoice; if the shipment is being made to a customer, a commercial invoice will still be mailed to the customer",
         "I4": "Forwarder's Invoice - The invoice the forwarder receives from shipper and completes by adding ocean freight amount, vessel name, sailing date, estimated time of arrival, FOB amount, etc.",
         "I5": "Immunization Record",
@@ -532,6 +532,6 @@
         "Y3": "Real Estate Property Information",
         "ZA": "Flood Determination Report",
         "ZB": "Conventional Ammunition Suspension Report - An action that suspends or freezes continued use of a specified quantity of conventional ammunition",
-        "ZZ": "Mutually Defined - "
+        "ZZ": "Mutually Defined"
     }
 }
